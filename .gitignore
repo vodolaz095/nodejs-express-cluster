@@ -1,0 +1,17 @@
+# Editor specific
+.idea/
+*.geany
+
+# MacOs specific
+.DS_Store
+
+# Distribution folders
+node_modules/
+bower_components/
+examples/public/dist/
+
+# Distribution files
+tutorials/Changelog.md
+tutorials/test.md
+examples/public/coverage
+examples/public/documentation

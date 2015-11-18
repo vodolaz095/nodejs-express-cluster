@@ -1,11 +1,3 @@
-# nodejs-express-cluster
-Example of usage of native Nodejs cluster with express application
-
-
-# Code of Example
-
-```javascript
-
 'use strict';
 
 
@@ -102,16 +94,3 @@ startAsCluster(server, 3001, 1); //for telnet server
 
 startAsCluster(bg1, 3001, 1); //for telnet server
 startAsCluster(bg2, 3001, 1); //for telnet server
-
-
-```
-
-
-# Usage
-
-```shell
-
-  # npm install
-  # npm start
-
-```

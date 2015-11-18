@@ -1,0 +1,28 @@
+{
+  "name": "vodolaz095",
+  "version": "0.0.1",
+  "description": "Example of usage of native NodeJS cluster with Express application",
+  "main": "index",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vodolaz095/nodejs-express-cluster.git"
+  },
+  "keywords": [
+    "example",
+    "express",
+    "cluster"
+  ],
+  "author": "vodolaz095",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vodolaz095/nodejs-express-cluster/issues"
+  },
+  "homepage": "https://github.com/vodolaz095/nodejs-express-cluster#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
