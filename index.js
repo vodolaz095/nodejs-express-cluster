@@ -92,5 +92,5 @@ startAsCluster(app, 3000, 1); //for express application
 startAsCluster(server, 3001, 1); //for telnet server
 
 
-startAsCluster(bg1, 3001, 1); //for telnet server
-startAsCluster(bg2, 3001, 1); //for telnet server
+startAsCluster(bg1, 3001, 1); //for background process, port is ignored
+startAsCluster(bg2, 3001, 1); //for background process, port is ignored
